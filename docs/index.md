@@ -4,21 +4,31 @@ Welcome to the Berani Docs! This documentation serves as a comprehensive guide f
 
 ## Table of Contents
 
-- [Home](home/Home.md) - Start here to get an overview of Berani Digital ID.
-- [AI](AI/README.md) - Learn about our AI initiatives and projects.
-- [Access Control](access/Roles.md) - Understand the roles and permissions within our systems.
+- [Access](access)
+  - [Roles](access/Roles.md) - Understand the roles and permissions within our systems.
   - [Users](access/Users.md) - Details on user management.
-- [Accounting](accounting/Accounts.md) - Documentation on accounting practices and standards.
+- [Accounting](accounting)
+  - [Accounts](accounting/Accounts.md) - Documentation on accounting practices and standards.
   - [Journals](accounting/Journals.md) - Insights into journal management.
-- [Finance](finance/Banks.md) - Explore our financial systems and protocols.
+- [AI](AI)
+  - [AI](AI/README.md) - Learn about our AI initiatives and projects.
+- [Finance](finance)
+  - [Banks](finance/Banks.md) - Explore our financial systems and protocols.
   - [Currency](finance/Currency.md) - Information on currency management.
   - [Transactions](finance/Transactions.md) - Guidelines on handling transactions.
   - [Wallets](finance/Wallets.md) - Overview of wallet management.
-- [Forms](form/Forms.md) - Documentation on form templates and usage.
-- [Identity Management](identity/Identities.md) - Learn about identity management within our systems.
-- [Logs](logs/Audits.md) - Audit logs and their importance.
-- [Navigation](navigation/Navigations.md) - Navigational elements within our systems.
-- [Standards](standards/laravel.md) - Coding and development standards, starting with Laravel.
+- [Form](form)
+  - [Forms](form/Forms.md) - Documentation on form templates and usage.
+- [Home](home)
+  - [Home](home/Home.md) - Manage the home contents.
+- [Identity](identity)
+  - [Identities](identity/Identities.md) - Learn about identity management within our systems.
+- [Logs](logs)
+  - [Audits](logs/Audits.md) - Audit logs and their importance.
+- [Navigation](navigation)
+  - [Navigations](navigation/Navigations.md) - Navigational elements within our systems.
+- [Standards](standards)
+  - [Laravel](standards/laravel.md) - Coding and development standards, starting with Laravel.
 
 ## Contributing
 
