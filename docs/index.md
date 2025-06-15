@@ -22,11 +22,14 @@ Welcome to the Berani Docs! This documentation serves as a comprehensive guide f
 - [Home](home)
   - [Home](home/Home.md) - Manage the home contents.
 - [Identity](identity)
-  - [Identities](identity/Identities.md) - Learn about identity management within our systems.
+  - [Identities](identity/Identities.md) - Personal identity management within our systems.
+  - [Memberships](identity/Memberships.md) - Membership identity management within our systems.
 - [Logs](logs)
   - [Audits](logs/Audits.md) - Audit logs and their importance.
 - [Navigation](navigation)
   - [Navigations](navigation/Navigations.md) - Navigational elements within our systems.
+- [Product](product)
+  - [Items](product/Items.md) - Product item and the transaction.
 - [Standards](standards)
   - [Laravel](standards/laravel.md) - Coding and development standards, starting with Laravel.
 
