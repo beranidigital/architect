@@ -3,15 +3,6 @@ tags: [identity-management, user-profile, database-schema, personal-information,
 ---
 # 🪪 Memberships
 
-## User Membership Entity
-The following properties for idt_users table (associative table for Users and Access):
-
-| Name                | Type      | Description                                      | Unique | Required  |
-|---------------------|-----------|--------------------------------------------------|--------|-----------|
-| user_id             | String    | Foreign key from Users table                     |   ❌   |    ✅    |
-| idt_member_id     | INT       | Foreign key from Access table                    |   ❌   |    ✅    |
-
-
 ## Membership Entity
 The following properties for idt_members table:
 
@@ -22,7 +13,7 @@ The following properties for idt_members table:
 | idt_member_description    | String    | Description of the member                  |   ❌   |    ❌    |
 | idt_member_icon           | String    | Icon of the member                         |   ❌   |    ❌    |
 | idt_member_type_id        | INT       | Foreign key from member Type table         |   ❌   |    ✅    |
-| referral_id               | INT       | Foreign key from User table                |   ❌   |    ✅    |
+| idt_member_referral_id    | INT       | Foreign key from Member table              |   ❌   |    ✅    |
 | user_id                   | INT       | Foreign key from User table                |   ❌   |    ✅    |
 
 
