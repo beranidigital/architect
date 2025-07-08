@@ -13,7 +13,8 @@ The following properties are defined for the `product_items` table:
 | product_name        | String    | Name of the product item                                     | ❌     | ✅      |  
 | product_description | String    | Description of the product item                              | ❌     | ❌      |  
 | product_image       | String    | Image of the product item                                    | ❌     | ❌      |
-| product_price       | Decimal   | Price of the product item (Default: 0) -> Wallet Type        | ❌     | ✅      |
+| product_price       | Decimal   | Price of the product item (Default: 0)                       | ❌     | ✅      |
+| currency_id         | INT       | Foreign key from Currency table                              | ❌     | ✅      |
 | sort_order          | INT       | Sort order of the product item (Default: 0)                  | ❌     | ✅      |  
 | is_active           | Boolean   | Indicates if the product item is active (Default: true)      | ❌     | ✅      |  
 | is_highlight        | Boolean   | Indicates if the product item is highlighted (Default: true) | ❌     | ✅      |  
