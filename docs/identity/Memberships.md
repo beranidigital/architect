@@ -14,7 +14,7 @@ The following properties for `idt_members` table:
 | idt_member_email          | String    | Email of the member (Email notification)   |   ❌   |    ❌    |
 | idt_member_description    | String    | Description of the member                  |   ❌   |    ❌    |
 | idt_member_icon           | String    | Icon of the member                         |   ❌   |    ❌    |
-| idt_member_status         | String    | Status of the member                       |   ❌   |    ❌    |
+| idt_member_status         | String    | Status of the member                       |   ❌   |    ✅    |
 | idt_member_type_id        | INT       | Foreign key from member Type table         |   ❌   |    ✅    |
 | idt_member_referral_id    | INT       | Foreign key from Member table (Invitor)    |   ❌   |    ❌    |
 | user_id                   | INT       | Foreign key from User table (Invitee)      |   ❌   |    ❌    |
