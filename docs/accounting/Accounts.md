@@ -33,6 +33,7 @@ The following properties for acc_accounts table:
 | account_type              | String    | Type of the account (Debit/Credit)                    |   ❌   |    ✅    |
 | account_code              | String    | Code of the account                                   |   ❌   |    ❌    |
 | account_description       | String    | Description of the account                            |   ❌   |    ❌    |
+| account_balance           | Decimal   | Balance of the account                                |   ❌   |    ❌    |
 | account_parent_id         | INT       | Foreign Key from Acoount                              |   ❌   |    ❌    |
 | category_id               | INT       | Foreign key from Categories Table                     |   ❌   |    ✅    |
 
